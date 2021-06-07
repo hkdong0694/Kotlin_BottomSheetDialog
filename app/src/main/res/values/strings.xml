@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">BottomSheetDialog</string>
+
+
+    <string name="touch_title">터치팡팡 응모완료</string>
+    <string name="touch_desc_1">터치팡팡에 응모하여</string>
+    <string name="touch_desc_2">5,000포인트</string>
+    <string name="touch_desc_3">를 받았습니다.</string>
+
+
 </resources>
