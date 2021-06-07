@@ -9,13 +9,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@drawable/bottom_sheet_border"
         android:layout_gravity="bottom"
         >
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/bottom_sheet_border"
             >
 
             <TextView
@@ -88,6 +88,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
+                android:id="@+id/btn_identity"
                 android:text="확인"
                 android:textStyle="normal"
                 android:textSize="16dp"
