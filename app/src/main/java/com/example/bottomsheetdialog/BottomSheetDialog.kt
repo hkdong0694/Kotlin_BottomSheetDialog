@@ -19,7 +19,7 @@ class BottomSheetDialog : BottomSheetDialogFragment(), View.OnClickListener {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? = inflater.inflate(R.layout.bottom_sheet_dialog, container, false)
+    ): View? = inflater.inflate(R.layout.bottom_sheet_recommand, container, false)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
