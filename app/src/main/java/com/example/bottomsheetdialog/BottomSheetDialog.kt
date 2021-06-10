@@ -13,7 +13,17 @@ import kotlinx.android.synthetic.main.bottom_sheet_dialog.view.*
  * Created by 한경동 (Joel) on 2021/06/07.
  * Description:
  */
-class BottomSheetDialog : BottomSheetDialogFragment(), View.OnClickListener {
+class BottomSheetDialog : BottomSheetDialogFragment() {
+
+    interface DialogListener {
+        fun getView(view: View)
+    }
+
+    var mListener: DialogListener?= null
+
+    fun setDialogListener(listener: DialogListener) {
+        this.mListener = listener
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -23,16 +33,7 @@ class BottomSheetDialog : BottomSheetDialogFragment(), View.OnClickListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        view.btn_identity.setOnClickListener(this)
-        view.iv_close.setOnClickListener(this)
+        mListener?.getView(view)
     }
 
-    override fun onClick(v: View?) {
-        when(v?.id) {
-            R.id.iv_close,
-            R.id.btn_identity -> {
-                    dialog?.dismiss()
-            }
-        }
-    }
 }
