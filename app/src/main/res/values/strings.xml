@@ -7,5 +7,13 @@
     <string name="touch_desc_2">5,000포인트</string>
     <string name="touch_desc_3">를 받았습니다.</string>
 
+    <string name="coinless_title">편의점에서 모른다면?</string>
+    <string name="coinless_exp_01">잔돈적립 요청해보세요!</string>
+    <string name="coinless_exp_02">잔돈적립은 CU편의점에서 현금 결제 시 발생하는 잔돈을 신한Pay머니에 적립해주는 서비스입니다. 신한페이판 앱의 잔돈적립 바코드를 매장 카운터에 보여주고 스캔받은 후 잔돈적립을 요청해주세요.</string>
+    <string name="coinless_exp_03">진행 순서</string>
+    <string name="coinless_exp_04">[Pay &gt; 신한Pay머니 &gt; 잔돈적립 &gt; 바코드 (신한/하나) 노출 &gt; 매장 카운터에서 바코드 스캔 &gt; 잔돈적립 금액 입력 &gt; [확인] 선택]</string>
+    <string name="coinless_exp_05">신한Pay머니 약관에 동의하지 않은 고객님은 동의절차 후 진행해주세요.</string>
+    <string name="coinless_exp_06">잔돈은 10원~9900원까지 적립할 수  있습니다.</string>
+
 
 </resources>
